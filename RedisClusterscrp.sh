@@ -24,7 +24,7 @@ sudo gem install redis
 ## parameter list for redis.conf // this applies for each slave node
 
 port <PORT for every slave have to be different> ##7000 master - 7001/7003 for slaves
-bind <IP for the machine>
+bind <IP for the machine> ## 10.0.1.2 - 10.0.1.5 intranet
  
 cluster-enabled yes
 cluster-config-file nodes.conf
